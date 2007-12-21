@@ -11,6 +11,7 @@ Source0: http://www.torch.ch/archives/%{oname}%{version}src.tar.bz2
 License: BSD
 Group: System/Libraries
 Url: http://www.torch.ch
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Torch is a machine-learning library, written in C++. Its aim is to
