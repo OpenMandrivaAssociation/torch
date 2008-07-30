@@ -1,6 +1,6 @@
 %define name torch
 %define version 3
-%define release %mkrel 3
+%define release %mkrel 5
 %define oname Torch
 
 Summary: State of the art machine learning library
