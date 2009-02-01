@@ -1,13 +1,14 @@
 %define name torch
-%define version 3
-%define release %mkrel 6
+%define version 3.1
+%define release %mkrel 1
 %define oname Torch
+%define oversion 3
 
 Summary: State of the art machine learning library
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: http://www.torch.ch/archives/%{oname}%{version}src.tar.bz2
+Source0: http://www.torch.ch/archives/%{oname}%{oversion}src.tar.bz2
 License: BSD
 Group: System/Libraries
 Url: http://www.torch.ch
@@ -67,7 +68,7 @@ This package contains the static library and headers of Torch compiled
 with single precision support.
 
 %prep
-%setup -q -n %oname%version
+%setup -q -n %oname%oversion
 cp config/Makefile_options_Linux .
 
 %build
