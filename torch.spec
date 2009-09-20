@@ -1,6 +1,6 @@
 %define name torch
 %define version 3.1
-%define release %mkrel 1
+%define release %mkrel 2
 %define oname Torch
 %define oversion 3
 
