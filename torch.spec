@@ -94,3 +94,43 @@ rm -rf $RPM_BUILD_ROOT
 
 
 
+
+
+%changelog
+* Thu Sep 22 2011 Götz Waschk <waschk@mandriva.org> 3.1-3mdv2012.0
++ Revision: 700804
+- rebuild
+
+* Sun Sep 20 2009 Thierry Vignaud <tv@mandriva.org> 3.1-2mdv2011.0
++ Revision: 445516
+- rebuild
+
+* Sun Feb 01 2009 Götz Waschk <waschk@mandriva.org> 3.1-1mdv2009.1
++ Revision: 336064
+- set version number to 3.1
+
+* Sun Aug 03 2008 Thierry Vignaud <tv@mandriva.org> 3-6mdv2009.0
++ Revision: 261623
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tv@mandriva.org> 3-5mdv2009.0
++ Revision: 254682
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <blino@mandriva.org> 3mdv2008.1-current
++ Revision: 136550
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Tue Feb 27 2007 Götz Waschk <waschk@mandriva.org> 3-3mdv2007.0
++ Revision: 126339
+- enable packages required by imms
+
+* Tue Feb 27 2007 Götz Waschk <waschk@mandriva.org> 3-2mdv2007.1
++ Revision: 126239
+- release bump dedicated to blino
+- Import torch
+
