@@ -6,7 +6,7 @@
 Summary: State of the art machine learning library
 Name:    torch
 Version: 3.1
-Release: 4
+Release: 5
 Source0: http://www.torch.ch/archives/%{oname}%{oversion}src.tar.bz2
 License: BSD
 Group:   System/Libraries
