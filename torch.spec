@@ -12,6 +12,7 @@ License: BSD
 Group:   System/Libraries
 Url:     https://www.torch.ch
 
+BuildRequires:	make
 %description
 Torch is a machine-learning library, written in C++. Its aim is to
 provide the state-of-the-art of the best algorithms. It is, and it
